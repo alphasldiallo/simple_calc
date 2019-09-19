@@ -56,9 +56,13 @@ public class Intro_software_arch {
         
         
         pan.add(b);
-        fen.setContentPane(pan);
+        //fen.setContentPane(pan);
         
-        fen.setVisible(true);
+        //fen.setVisible(true);
+        
+        simple_calc c = new simple_calc();
+        c.setVisible(true);
+        
     }
     
 }
